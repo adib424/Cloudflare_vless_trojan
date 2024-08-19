@@ -1,12 +1,12 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
  
-let Pswd = "trojan";
+let Pswd = "123";
 const proxyIPs = ["proxy.xxxxxxxx.tk"]; //ts.hpc.tw edgetunnel.anycast.eu.org bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org proxy.xxxxxxxx.tk
 let cn_hostnames = [''];
 let CDNIP = 'www.visa.com.sg'
 // http_ip
-let IP1 = 'www.visa.com'
+let IP1 = '172.67.121.95'
 let IP2 = 'cis.visa.com'
 let IP3 = 'africa.visa.com'
 let IP4 = 'www.visa.com.sg'
